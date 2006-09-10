@@ -1,0 +1,35 @@
+\name{sigma2m}
+
+\alias{sigma2m}
+
+\title{ Calcola la matrice di varianza e covarianza non corretta }
+
+\description{
+  Questa funzione calcola la matrice di varianza e covarianza.
+  Le variabili corrispondono alle colonne della matrice \emph{x}   
+}
+
+\usage{
+sigma2m(x)
+}
+
+\arguments{
+  \item{x}{ matrice con \emph{n} righe e \emph{k} colonne }
+}
+
+\references{ Iacus, S., and Masarotto, G. (2003) \emph{ Laboratorio di Statistica con R }. Milano: McGraw-Hill }
+
+
+\author{ Fabio Frascati }
+
+\seealso{ \code{\link{sigma2.test}}, \code{\link{sigma}}, \code{\link[stats:cor]{var}}, \code{\link[stats:cor]{cov}} }
+
+\examples{
+
+x<-matrix(rnorm(20),nrow=10,ncol=2)
+sigma2m(x)
+
+}
+
+\keyword{ univar }
+
