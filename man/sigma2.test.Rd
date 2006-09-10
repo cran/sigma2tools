@@ -34,7 +34,7 @@ sigma2.test(x, alternative = "two.sided", var0 = 1, conf.level = 0.95)
 
 \author{ Fabio Frascati <fabiofrascati@yahoo.it>}
 
-\seealso{ \code{\link{popstderror}}, \code{\link{ssdev}}, \code{\link{sigma2m}}, \code{\link{cv2}}, \code{\link{sigma}}, \code{\link{stderror}}, \code{\link[stats:cor]{var}}, \code{\link[stats:cor]{cov}}, \code{\link[stats]{sd}}, \code{\link[stats:cor]{cov2cor}} }
+\seealso{ \code{\link{codev}}, \code{\link{popstderror}}, \code{\link{ssdev}}, \code{\link{sigma2m}}, \code{\link{cv2}}, \code{\link{sigma}}, \code{\link{stderror}}, \code{\link[stats:cor]{var}}, \code{\link[stats:cor]{cov}}, \code{\link[stats]{sd}}, \code{\link[stats:cor]{cov2cor}} }
 
 \examples{
 

@@ -22,7 +22,7 @@ stderror(x)
 
 \author{ Fabio Frascati <fabiofrascati@yahoo.it>}
 
-\seealso{ \code{\link{popstderror}}, \code{\link{ssdev}}, \code{\link{cv2}}, \code{\link{sigma}}, \code{\link{sigma2.test}}, \code{\link{sigma2m}}, \code{\link[stats:cor]{var}}, \code{\link[stats:cor]{cov}}, \code{\link[stats]{sd}}, \code{\link[stats:cor]{cov2cor}} }
+\seealso{ \code{\link{codev}}, \code{\link{popstderror}}, \code{\link{ssdev}}, \code{\link{cv2}}, \code{\link{sigma}}, \code{\link{sigma2.test}}, \code{\link{sigma2m}}, \code{\link[stats:cor]{var}}, \code{\link[stats:cor]{cov}}, \code{\link[stats]{sd}}, \code{\link[stats:cor]{cov2cor}} }
 
 \examples{
 
