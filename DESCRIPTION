@@ -1,12 +1,13 @@
 Package: sigma2tools
 Type: Package
+Encoding: latin1
 Title: Test of hypothesis about sigma2
-Version: 1.2.4
+Version: 1.2.5
 Date: 2006-09-10
 Author: Fabio Frascati
 Maintainer: Fabio Frascati <fabiofrascati@yahoo.it>
-Depends: R (>= 2.0.1), stats
+Depends: stats, utils, tools
 Description: This package contents a set of functions
-  to investigate with sigma2 parameter
-License: GPL (version 2 or later)
-Packaged: Thu Dec 30 01:15:57 2004; Fabio
+             to investigate with sigma2 parameter
+License: GPL-2
+Packaged: Wed Feb 25 08:59:31 2009; hornik
