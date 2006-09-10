@@ -21,6 +21,7 @@ sigma2.test(x, alternative = "two.sided", var0 = 1, conf.level = 0.95)
 
 \value{
   \item{statistic}{ valore empirico }
+  \item{parameter}{ gradi di libertà }
   \item{p.value}{ \emph{p}-value }
   \item{conf.int}{ intervallo di confidenza }
   \item{estimate}{ varianza campionaria }
@@ -31,9 +32,9 @@ sigma2.test(x, alternative = "two.sided", var0 = 1, conf.level = 0.95)
 \references{ Iacus, S., and Masarotto, G. (2003) \emph{ Laboratorio di Statistica con R }. Milano: McGraw-Hill }
 
 
-\author{ Fabio Frascati }
+\author{ Fabio Frascati <fabiofrascati@yahoo.it>}
 
-\seealso{ \code{\link{sigma2m}}, \code{\link{sigma}}, \code{\link[stats:cor]{var}}, \code{\link[stats:cor]{cov}} }
+\seealso{ \code{\link{ssdev}}, \code{\link{sigma2m}}, \code{\link{cv2}}, \code{\link{sigma}}, \code{\link{stderror}}, \code{\link[stats:cor]{var}}, \code{\link[stats:cor]{cov}}, \code{\link[stats]{sd}} }
 
 \examples{
 

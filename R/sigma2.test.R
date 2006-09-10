@@ -11,10 +11,12 @@ function(x, alternative = "two.sided", var0 = 1, conf.level = 0.95)
     
     dname <- deparse(substitute(x))
     nx <- length(x)
-
+     
         if (nx <= 2) 
         stop("not enough x observations")
-
+    
+    gradiliberta <- nx-1
+ 
     sx <- sd(x)
 
     estimate <- sx**2
@@ -37,9 +39,10 @@ function(x, alternative = "two.sided", var0 = 1, conf.level = 0.95)
 (nx - 1)*sx**2/qchisq(p=(1-conf.level)/2,df=nx-1))
     }
     names(s2obs) <- "X-squared"
+    names(gradiliberta) <- "df"
     names(var0) <- "variance"
     attr(cint, "conf.level") <- conf.level
-    rval <- list(statistic = s2obs, p.value = pval, conf.int = cint, 
+    rval <- list(statistic = s2obs, parameter = gradiliberta , p.value = pval, conf.int = cint, 
         estimate = estimate, null.value = var0, alternative = alternative, 
         method = method, data.name = dname)
     attr(rval, "class") <- "htest"

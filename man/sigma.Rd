@@ -20,9 +20,9 @@ sigma(x)
 \references{ Iacus, S., and Masarotto, G. (2003) \emph{ Laboratorio di Statistica con R }. Milano: McGraw-Hill }
 
 
-\author{ Fabio Frascati }
+\author{ Fabio Frascati <fabiofrascati@yahoo.it>}
 
-\seealso{ \code{\link{sigma2.test}}, \code{\link{sigma2m}}, \code{\link[stats:cor]{var}}, \code{\link[stats:cor]{cov}} }
+\seealso{ \code{\link{ssdev}}, \code{\link{sigma2.test}}, \code{\link{cv2}}, \code{\link{sigma2m}}, \code{\link{stderror}}, \code{\link[stats:cor]{var}}, \code{\link[stats:cor]{cov}}, \code{\link[stats]{sd}} }
 
 \examples{
 
